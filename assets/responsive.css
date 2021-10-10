@@ -1,0 +1,91 @@
+@media (max-width: 1000px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+    .meal-card-con {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 5rem;
+        grid-row-gap: 5rem;
+    }
+}
+@media (max-width: 800px) {
+    .sec-title {
+        font-size: 2.5rem;
+    }
+    .hero-title {
+        font-size: 3rem;
+    }
+    .meal-card-con {
+        grid-column-gap: 2rem;
+        grid-row-gap: 4rem;
+    }
+    .icon-con > i {
+        font-size: 10rem;
+    }
+    .g-card-con {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cpy {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu-item-wrapper > a {
+        font-size: 1.1rem;
+    }
+    .hero-wrapper {
+        height: 80vh;
+    }
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    .toggler {
+        left: 1.5rem;
+    }
+    .meal-card-con {
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+    }
+    .g-card-con {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 450px) {
+    .sec-title {
+        font-size: 2rem;
+    }
+    .hero-title {
+        font-size: 2rem;
+    }
+    .hero-wrapper {
+        padding: 0 1rem;
+    }
+    .icon-con > i {
+        font-size: 7rem;
+    }
+    .menu-item-wrapper > a {
+        font-size: 1.1rem;
+    }
+    .meal-card > h3 {
+        font-size: 1.5rem;
+    }
+    .g-card .back {
+        padding-right: 1rem;
+    }
+    .g-card .back .g-title {
+        font-size: 1.1rem;
+        margin: 0 0 0.25rem 0;
+    }
+    .g-card .back .g-info {
+        text-align: left;
+        font-size: 0.75rem;
+    }
+    .menu-item-wrapper > a {
+        padding: 1rem 0.25rem;
+        font-size: 0.75rem;
+    }
+    .cpy {
+        font-size: 0.75rem;
+    }
+}
